@@ -22,8 +22,6 @@ elif idade >= 13:
 else:
     print("Idade inválida.")
     exit()
-
-# comparação final (parte mais inteligente 💡)
 if min_f <= frequencia <= max_f:
     print("DENTRO DA FAIXA ADEQUADA.")
 elif frequencia < min_f:
