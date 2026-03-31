@@ -1,6 +1,6 @@
 print("CONTAGEM REGRESSIVA")
 contador = 10
-for i in range(10, 0, -1):
+for i in range(10, 0, -1): # range(início, fim, passo)
     if i % 2 == 0:
         print(f"Faltam apenas {i} segundos - Não perca essa oportunidade!")
     else:
